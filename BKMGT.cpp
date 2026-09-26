@@ -162,7 +162,7 @@ void bkmgt(){
       case 9 : 
         cout<<mtb<<endl;
         cin>>m;
-        cout<<m<<"mb after converting to byte = "<<(m*1048576)<<"B"<<endl;
+        cout<<m<<"mb after converting to byte = "<<(m*rt)<<"B"<<endl;
         cout<<wh<<endl;
         cin>>choice;
       break;
@@ -190,14 +190,14 @@ void bkmgt(){
       case 13 :
         cout<<gtb<<endl;
         cin>>g;
-        cout<<g<<"GB after converting to byte = "<<(g*1073741824)<<"B"<<endl;
+        cout<<g<<"GB after converting to byte = "<<(g*rth)<<"B"<<endl;
         cout<<wh<<endl;
         cin>>choice;
       break;
       case 14 :
         cout<<gtk<<endl;
         cin>>g;
-        cout<<g<<"GB after converting to kelobyte = "<<(g*1048576)<<"kb"<<endl;
+        cout<<g<<"GB after converting to kelobyte = "<<(g*rt)<<"kb"<<endl;
         cout<<wh<<endl;
         cin>>choice;
       break;
@@ -211,28 +211,28 @@ void bkmgt(){
       case 16 :
         cout<<gtt<<endl;
         cin>>g;
-        cout<<g<<"GB after converting to terabytebyte = "<<(g/onet)<<"Tb"<<endl;
+        cout<<g<<"GB after converting to terabyte = "<<(g/onet)<<"Tb"<<endl;
         cout<<wh<<endl;
         cin>>choice;
       break;
       case 17 :
         cout<<ttb<<endl;
         cin>>t;
-        cout<<t<<"Tb after converting to byte = "<<(t*1099511627776)<<"B"<<endl;
+        cout<<t<<"Tb after converting to byte = "<<(t*rfou)<<"B"<<endl;
         cout<<wh<<endl;
         cin>>choice;
       break;
       case 18 :
         cout<<ttk<<endl;
         cin>>t;
-        cout<<t<<"Tb after converting to kelobyte = "<<(t*1073741824)<<"kb"<<endl;
+        cout<<t<<"Tb after converting to kelobyte = "<<(t*rth)<<"kb"<<endl;
         cout<<wh<<endl;
         cin>>choice;
       break;
       case 19 : 
         cout<<ttm<<endl;
         cin>>t;
-        cout<<t<<"Tb after converting to megabyte = "<<(t*1048576)<<"mb"<<endl;
+        cout<<t<<"Tb after converting to megabyte = "<<(t*rt)<<"mb"<<endl;
         cout<<wh<<endl;
         cin>>choice;
       break;
@@ -293,5 +293,7 @@ int main(){
 
   
 }
+
+
 
 
