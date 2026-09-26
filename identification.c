@@ -1,7 +1,16 @@
 #include <stdio.h>
 
-int main() {
+void id() {
     printf("random c projects");
+
+    
+}
+
+
+int main(){
+
+    id();
+
 
     return 0;
 }
