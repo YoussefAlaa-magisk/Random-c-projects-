@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //so imp
 
 void id() {
     printf("=== Random C Calculator ===\n");
@@ -16,8 +16,25 @@ void id() {
     printf("Remainder:      %d %% %d = %d\n", a, b, a % b);
 }
 
-int main() {
-    id();
 
-    return 0;
+end(){
+    printf("goodbye!!");
+    return;
+    //the end
+}
+int main() {
+
+
+    
+    id();
+    end();
+
+/*
+
+main
+
+*/
+
+
+    
 }
